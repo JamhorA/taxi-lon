@@ -72,7 +72,7 @@ export default function ReceiptView() {
       </div>
 
       <div className="space-y-12">
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        {/* <div className="bg-white rounded-lg shadow-lg p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Enskild Kvitto</h2>
           <ImageUploadSection
             title="Kvitto Analys"
@@ -95,7 +95,7 @@ export default function ReceiptView() {
               text={imageState.extractedText} 
             />
           )}
-        </div>
+        </div> */}
 
         <div className="bg-white rounded-lg shadow-lg p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Batch Uppladdning</h2>
